@@ -35,7 +35,7 @@ pipeline {
       
       steps {
               sh '''
-                  sleep5
+                  sleep 5
                   echo "this is my-stage"
                   
                   '''
